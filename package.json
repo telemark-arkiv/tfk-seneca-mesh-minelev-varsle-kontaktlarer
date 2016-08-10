@@ -1,0 +1,44 @@
+{
+  "name": "tfk-seneca-mesh-minelev-varsle-kontaktlarer",
+  "version": "1.0.0",
+  "description": "Varsle kontaktlærer når eleven har fått varsel av andre",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/tfk-seneca-mesh-minelev-varsle-kontaktlarer/issues"
+  },
+  "homepage": "https://github.com/telemark/tfk-seneca-mesh-minelev-varsle-kontaktlarer",
+  "main": "service.js",
+  "engines": {
+    "node": ">=4.4.7"
+  },
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "start": "node service.js",
+    "isolated": "TFK_SENECA_MINELEV_STATS_DISPATCHER_ISOLATED=1 node service.js",
+    "setup": "npm install && node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/tfk-seneca-mesh-minelev-varsle-kontaktlarer"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.12",
+    "nsp": "2.6.1",
+    "standard": "7.1.2",
+    "tap": "6.3.0"
+  },
+  "dependencies": {
+    "seneca": "2.1.0",
+    "seneca-balance-client": "0.5.0",
+    "seneca-mesh": "0.8.0",
+    "tfk-generate-jwt": "1.0.0",
+    "wreck": "9.0.0"
+  }
+}
