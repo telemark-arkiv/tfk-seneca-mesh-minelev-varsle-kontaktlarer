@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-mesh-minelev-varsle-kontaktlarer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Varsle kontaktlærer når eleven har fått varsel av andre",
   "license": "MIT",
   "author": {
@@ -21,7 +21,7 @@
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
     "start": "node service.js",
-    "isolated": "TFK_SENECA_MINELEV_STATS_DISPATCHER_ISOLATED=1 node service.js",
+    "isolated": "TFK_SENECA_MINELEV_VARSLE_KONTAKTLARER_ISOLATED=1 node service.js",
     "setup": "npm install && node setup.js"
   },
   "repository": {
