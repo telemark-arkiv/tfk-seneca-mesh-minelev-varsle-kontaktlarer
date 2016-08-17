@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-mesh-minelev-varsle-kontaktlarer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Varsle kontaktlærer når eleven har fått varsel av andre",
   "license": "MIT",
   "author": {
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/telemark/tfk-seneca-mesh-minelev-varsle-kontaktlarer",
   "main": "service.js",
   "engines": {
-    "node": ">=4.4.7"
+    "node": ">=4.5.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
