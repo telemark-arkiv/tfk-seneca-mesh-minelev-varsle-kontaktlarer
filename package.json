@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-mesh-minelev-varsle-kontaktlarer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Varsle kontaktlærer når eleven har fått varsel av andre",
   "license": "MIT",
   "author": {
