@@ -28,7 +28,6 @@ WORKDIR "/src"
 RUN npm install --production
 
 # Env variables
-ENV TFK_SENECA_MINELEV_VARSLE_KONTAKTLARER_JWT_KEY Louie Louie, oh no, I got to go. Louie Louie, oh no, I got to go
 ENV TFK_SENECA_MINELEV_VARSLE_KONTAKTLARER_TAG tfk-seneca-minelev-varsle-kontaktlarer
 ENV TFK_SENECA_MINELEV_VARSLE_KONTAKTLARER_HOST localhost
 ENV TFK_SENECA_MINELEV_VARSLE_KONTAKTLARER_PORT 8000

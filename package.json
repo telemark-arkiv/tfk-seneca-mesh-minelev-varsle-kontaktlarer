@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-mesh-minelev-varsle-kontaktlarer",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Varsle kontaktlærer når eleven har fått varsel av andre",
   "license": "MIT",
   "author": {
@@ -37,8 +37,6 @@
   "dependencies": {
     "seneca": "2.1.0",
     "seneca-balance-client": "0.5.0",
-    "seneca-mesh": "0.8.0",
-    "tfk-generate-jwt": "1.0.0",
-    "wreck": "9.0.0"
+    "seneca-mesh": "0.8.0"
   }
 }
